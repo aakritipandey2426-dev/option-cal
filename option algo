@@ -1,1 +1,19 @@
+import time
+import matplotlib.pyplot as plt
+
+# Initial setup
+fair_value = 40
+algo_bid = 20
+algo_ask = 80
+human_bid = 21
+trade_executed = False
+
+# Record data for visualization
+algo_bids = [algo_bid]
+algo_asks = [algo_ask]
+human_bids = [human_bid]
+steps = [0]
+
+print("Initial Market: Algo Buyer @ 20, Seller @ 80")
+print(f"Fair Value of Option = {
 
